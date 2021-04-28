@@ -9,8 +9,7 @@ import android.widget.Button;
 
 public class MenuPrincipal extends AppCompatActivity {
 
-    Button btn_VoltarMenu, btn_cadDespesa,btn_excluir_principal;
-    Button button_ult_lanc;
+    Button btn_cadDespesa,btn_excluir_principal, button_ult_lanc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,8 +19,8 @@ public class MenuPrincipal extends AppCompatActivity {
         button_ult_lanc = (Button) findViewById(R.id.button_ult_lanc);
         button_ult_lanc.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                Intent intent2 = new Intent(MenuPrincipal.this, MainActivity.class);
-                startActivity(intent2);
+                Intent intent1 = new Intent(MenuPrincipal.this, ResultScreen.class);
+                startActivity(intent1);
             }
         });
 
@@ -30,8 +29,18 @@ public class MenuPrincipal extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent1 = new Intent(MenuPrincipal.this, CadDespesas.class);
-                startActivity(intent1);
+                Intent intent2 = new Intent(MenuPrincipal.this, CadDespesas.class);
+                startActivity(intent2);
+            }
+        });
+
+        btn_excluir_principal = (Button) findViewById(R.id.btn_excluir_principal);
+        btn_excluir_principal.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent3 = new Intent(MenuPrincipal.this, MainActivity.class);
+                startActivity(intent3);
             }
         });
     }

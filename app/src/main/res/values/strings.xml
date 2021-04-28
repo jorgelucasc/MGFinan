@@ -3,8 +3,8 @@
     <string-array name="names">
         <item>Selecione...</item>
         <item>Conta Luz</item>
+        <item>Conta Telefone</item>
         <item>Conta Água</item>
-        <item>Alimentação</item>
         <item>Outros</item>
     </string-array>
 </resources>

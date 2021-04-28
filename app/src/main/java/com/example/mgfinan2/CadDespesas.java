@@ -40,8 +40,8 @@ public class CadDespesas extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CadDespesas.this, MainActivity.class);
-                startActivity(intent);
+                Intent intent5 = new Intent(CadDespesas.this, MainActivity.class);
+                startActivity(intent5);
 
                 despesa.setObsDespesa(editText_ObsDesp.getText().toString());
                 despesa.setValordespesa(Integer.parseInt(editTextText_VlrDespesa.getText().toString()));
@@ -60,8 +60,8 @@ public class CadDespesas extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CadDespesas.this, MenuPrincipal.class);
-                startActivity(intent);
+                Intent intent6 = new Intent(CadDespesas.this, MenuPrincipal.class);
+                startActivity(intent6);
             }
         });
     }
