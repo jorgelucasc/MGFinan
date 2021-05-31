@@ -11,4 +11,8 @@
     <color name="azullogo">#005ee5</color>
     <color name="verdelogo">#00d25b</color>
     <color name="Cinza">#CCCCCC</color>
+
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="blue_semi_transparent">#80738ffe</color>
+    <color name="background">#e5e5e5</color>
 </resources>

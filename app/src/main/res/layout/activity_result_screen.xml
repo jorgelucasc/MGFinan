@@ -97,18 +97,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
-        android:layout_marginBottom="20dp"
         android:background="@color/Cinza"
         android:backgroundTint="@color/Cinza"
         android:ems="10"
         android:focusable="false"
-        app:layout_constraintBottom_toTopOf="@+id/btn_voltar_result"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber3" />
 
     <TextView
-        android:id="@+id/textView5_total_result"
+        android:id="@+id/total_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
@@ -124,11 +122,13 @@
         android:id="@+id/btn_voltar_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="20dp"
         android:onClick="irParaMainActivity"
         android:text="Voltar"
         app:backgroundTint="@color/azullogo"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

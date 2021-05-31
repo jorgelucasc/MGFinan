@@ -1,15 +1,17 @@
 package com.example.mgfinan2;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class ResultScreen extends AppCompatActivity {
 
     Button btn_voltar_result;
+    EditText editTextNumber4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,8 +23,8 @@ public class ResultScreen extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent4 = new Intent(ResultScreen.this, MenuPrincipal.class);
-                startActivity(intent4);
+                Intent intent5 = new Intent(ResultScreen.this, ActMain.class);
+                startActivity(intent5);
             }
         });
     }

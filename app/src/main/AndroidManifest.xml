@@ -8,10 +8,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MGFinan2">
-        <activity android:name=".ResultScreen" />
-        <activity android:name=".MenuPrincipal" />
-        <activity android:name=".CadDespesas" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".ResultScreen" android:label="Totais"/>
+        <activity android:name=".ActMain" android:label="Lançamentos Feitos"/>
+        <activity android:name=".ActCadDespesa" android:label="Cad. Despesa"/>
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

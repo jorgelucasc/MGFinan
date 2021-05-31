@@ -7,4 +7,7 @@
         <item>Conta Água</item>
         <item>Outros</item>
     </string-array>
+    <string name="title_activity_act_main" translatable="false">Lista</string>
+    <string name="title_activity_act_cad_despesa" translatable="false">Cadastro de Despesa</string>
+    <string name="title_floatbt_cadastrar_despesa">Cadastro de Despesa</string>
 </resources>

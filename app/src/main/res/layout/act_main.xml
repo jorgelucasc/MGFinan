@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutContentMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActMain">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_act_main"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:animationCache="true"
+        app:fab_labelStyle="@style/LabelStyle"
+        app:fab_addButtonColorNormal="@color/azullogo"
+        app:fab_addButtonColorPressed="@color/blue_semi_transparent"
+        app:fab_labelsPosition="left">
+
+        <com.getbase.floatingactionbutton.AddFloatingActionButton
+            android:id="@+id/fab_action1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/white"
+            app:fab_colorPressed="@color/white_pressed"
+            android:src="@drawable/ic_cad_receita"
+            app:fab_size="mini"
+            app:fab_title="Cad. Depesa" />
+
+        <com.getbase.floatingactionbutton.AddFloatingActionButton
+            android:id="@+id/fab_action2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/white"
+            app:fab_colorPressed="@color/white_pressed"
+            android:src="@drawable/ic_cad_receita"
+            app:fab_size="mini"
+            app:fab_title="Ult. Lanc." />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>
